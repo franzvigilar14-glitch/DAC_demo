@@ -1,3 +1,19 @@
+/*============================================
+                  DAC DEMO
+  ============================================
+  Description:
+    This program reads a potentiometer
+  with the 8-bit ADC, shows the value and voltage on
+  the Serial Monitor, and outputs it through the DAC
+  for multimeter checking.
+    
+  Programmer:
+    Caberoy, Adrian Miko A.
+    Vigilar, Franz Louis G.
+
+  Date:
+   14 October 2026
+   ------------------------------------------*/
 // GPIO pins
 const byte POT = 36;
 const byte DAC_PIN = 25;
